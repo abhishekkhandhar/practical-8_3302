@@ -1,8 +1,29 @@
+using System;
+using System.Collections.
+Generic;
+using System.Linq;
+using System.Web;
+namespace
+InventoryManagementModel.Models
 {
-  "solution": {
-    "path": "..\\source\\repos\\practical-8_114\\practical-8_114.slnx",
-    "projects": [
-      "practical-8_114\\practical-8_114.csproj"
-    ]
-  }
+    public class
+Product
+    {
+        public int ProductId { get; set; }
+        public string ProductName
+        {
+            get;
+            set;
+        }
+        public int Quantity
+        {
+            get;
+            set;
+        }
+        public decimal Price
+        {
+            get;
+            set;
+        }
+    }
 }
